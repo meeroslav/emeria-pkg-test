@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@emeria-pkg-test/buildable':
+        specifier: ^1.0.0
+        version: 1.0.0
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -90,8 +93,8 @@ importers:
   packages/child-two:
     dependencies:
       '@emeria-pkg-test/buildable':
-        specifier: workspace:*
-        version: link:../buildable
+        specifier: 1.0.0
+        version: 1.0.0
 
 packages:
 
@@ -681,6 +684,9 @@ packages:
   '@cypress/request@3.0.6':
     resolution: {integrity: sha512-fi0eVdCOtKu5Ed6+E8mYxUF6ZTFJDZvHogCBelM0xVXmrDEkyM22gRArQzq1YcHPm1V47Vf/iAD+WgVdUlJCGg==}
     engines: {node: '>= 6'}
+
+  '@emeria-pkg-test/buildable@1.0.0':
+    resolution: {integrity: sha512-pO1OzglaIa5dEU/g1TOHD/evVWjnABa6dqdrcbX9WswSdWoJ2iSBgC87mg5Mx0e8jCV29rCLkLgAKERf0nK/XA==}
 
   '@emnapi/core@1.3.1':
     resolution: {integrity: sha512-pVGjBIt1Y6gg3EJN8jTcfpP/+uuRksIo055oE/OBkDNcjZqVbfkWCksG1Jp4yZnj3iKWyWX8fdG/j6UDYPbFog==}
@@ -5358,6 +5364,8 @@ snapshots:
       tough-cookie: 5.0.0
       tunnel-agent: 0.6.0
       uuid: 8.3.2
+
+  '@emeria-pkg-test/buildable@1.0.0': {}
 
   '@emnapi/core@1.3.1':
     dependencies:

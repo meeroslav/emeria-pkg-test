@@ -18,7 +18,7 @@
     }
   },
   "dependencies": {
-    "@emeria-pkg-test/buildable": "workspace:*"
+    "@emeria-pkg-test/buildable": "1.0.0"
   },
   "types": "./dist/index.d.ts",
   "type": "module"
