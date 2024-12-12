@@ -1,0 +1,14 @@
+{
+  "name": "@emeria-pkg-test/myapp",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "myapp",
+    "projectType": "application",
+    "sourceRoot": "apps/myapp/src"
+  },
+  "dependencies": {
+    "@emeria-pkg-test/child-one": "file:../../packages/child-one",
+    "@emeria-pkg-test/child-two": "file:../../packages/child-two"
+  }
+}

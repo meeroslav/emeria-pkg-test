@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/child-one"
+    },
+    {
+      "path": "./packages/child-two"
+    },
+    {
+      "path": "./packages/buildable"
+    },
+    {
+      "path": "./apps/myapp"
+    }
+  ]
+}

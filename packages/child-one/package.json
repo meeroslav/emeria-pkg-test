@@ -1,0 +1,25 @@
+{
+  "name": "@emeria-pkg-test/child-one",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "typings": "./dist/index.d.ts",
+  "private": true,
+  "nx": {
+    "sourceRoot": "packages/child-one/src",
+    "projectType": "library",
+    "name": "child-one"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@emeria-pkg-test/buildable": "workspace:*"
+  },
+  "types": "./dist/index.d.ts",
+  "type": "module"
+}
